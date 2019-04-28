@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_photo_camera_black_24dp"
+            android:title="拍照辨識" />
+    <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/ic_search_black_24dp"
+            android:title="搜尋" />
+    <item
+            android:id="@+id/nav_favorites"
+            android:icon="@drawable/ic_favorite_black_24dp"
+            android:title="收藏" />
+    <item
+            android:id="@+id/nav_communicate"
+            android:icon="@drawable/ic_book_black_24dp"
+            android:title="食譜交流" />
+    <item
+            android:id="@+id/nav_account"
+            android:icon="@drawable/ic_account_box_black_24dp"
+            android:title="帳號資訊" />
+
+</menu>
