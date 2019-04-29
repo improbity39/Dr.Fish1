@@ -6,9 +6,19 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.support.v7.widget.DividerItemDecoration;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
+
+import java.util.ArrayList;
 
 
 public class SearchFragment extends Fragment {
+    private RecyclerView allRecipe;
+    private MyAdapter adapter;
+    private ArrayList<String> mData = new ArrayList<>();
 
     @Nullable
     @Override
